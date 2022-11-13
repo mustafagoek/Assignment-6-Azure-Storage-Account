@@ -1,0 +1,57 @@
+{
+    "sku": {
+        "name": "Standard_LRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/baa43e7b-5052-4045-95c6-5c893d7aef8c/resourceGroups/az104-07-rg1/providers/Microsoft.Storage/storageAccounts/storageaccountgokmus12",
+    "name": "storageaccountgokmus12",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "eastus",
+    "tags": {
+        "owner": "mustafa"
+    },
+    "properties": {
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": true,
+        "allowSharedKeyAccess": true,
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [
+                {
+                    "value": "5.146.196.140",
+                    "action": "Allow"
+                }
+            ],
+            "defaultAction": "Deny"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "services": {
+                "file": {
+                    "enabled": true,
+                    "lastEnabledTime": "2022-11-13T10:35:43.0314520Z"
+                },
+                "blob": {
+                    "enabled": true,
+                    "lastEnabledTime": "2022-11-13T10:35:43.0314520Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Cool",
+        "provisioningState": "Succeeded",
+        "creationTime": "2022-11-13T10:35:42.8593849Z",
+        "primaryEndpoints": {
+            "dfs": "https://storageaccountgokmus12.dfs.core.windows.net/",
+            "web": "https://storageaccountgokmus12.z13.web.core.windows.net/",
+            "blob": "https://storageaccountgokmus12.blob.core.windows.net/",
+            "queue": "https://storageaccountgokmus12.queue.core.windows.net/",
+            "table": "https://storageaccountgokmus12.table.core.windows.net/",
+            "file": "https://storageaccountgokmus12.file.core.windows.net/"
+        },
+        "primaryLocation": "eastus",
+        "statusOfPrimary": "available"
+    }
+}
